@@ -273,7 +273,7 @@ const resetQueueState = () => {
      const handleJobRoute = (scrollPercent, viewport) => {
       const triggerPoint = getTriggerPoint('JOB_ROUTE', viewport);
         
-        if (scrollPercent >= triggerPoint {
+        if (scrollPercent >= triggerPoint) {
             elements.queuedJobsWrap?.classList.add('go');
             // Delay then move in-queue items
             setTimeout(() => {
