@@ -148,6 +148,7 @@ const SCROLL_TRIGGERS = {
         [BREAKPOINTS.WIDE]: 18.75
     }
 };
+
     function handleScroll() {
         const windowHeight = document.documentElement.scrollHeight - window.innerHeight;
         const scrollPercent = (window.scrollY / windowHeight) * 100;
