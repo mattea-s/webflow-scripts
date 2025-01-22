@@ -13,8 +13,13 @@ Add this script tag before the closing </body> tag in Webflow.
 
 ### AF3D Computer Interactive Scroll
 
+#### Final (In Progress)
 ```html
 <script src="https://cdn.jsdelivr.net/gh/mattea-s/webflow-scripts@main/af3d-computer.js"></script>
+```
+#### Working (Desktop Only)
+```html
+<script src="https://cdn.jsdelivr.net/gh/mattea-s/webflow-scripts@main/af3d-computer-desktop-working.js"></script>
 ```
 
 ### New FAQ Interaction
