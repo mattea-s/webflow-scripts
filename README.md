@@ -21,6 +21,10 @@ Add this script tag before the closing </body> tag in Webflow.
 ```html
 <script src="https://cdn.jsdelivr.net/gh/mattea-s/webflow-scripts@main/af3d-computer-simple-working.js"></script>
 ```
+#### Test Script
+```html
+<script src="https://cdn.jsdelivr.net/gh/mattea-s/webflow-scripts@main/AF3D-computer-testing.js"></script>
+```
 
 ### New FAQ Interaction
 
