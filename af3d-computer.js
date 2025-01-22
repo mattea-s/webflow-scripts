@@ -198,7 +198,6 @@ const StateMachine = {
         return this.currentState === state;
     }
 };
-};
 
 // Utility functions
 const getViewportWidth = () => {
