@@ -188,11 +188,10 @@ const handleJobSend = (scrollPercent, viewport) => {
     const triggerPoint = getTriggerPoint('JOB_SEND', viewport);
     
     if (scrollPercent >= triggerPoint) {
-        secondScreen?.classList.remove('hide');
-        console.log(`Job Send triggered at ${scrollPercent}% (viewport: ${viewport}px)`);
-    } else {
-        secondScreen?.classList.add('hide');
-    }
+            secondScreen?.classList.remove('hide');
+        } else {
+            secondScreen?.classList.add('hide');
+        }
 };
 
       // Show Queue
