@@ -182,12 +182,6 @@ window.Webflow.push(function() {
         const windowHeight = document.documentElement.scrollHeight - window.innerHeight;
         const scrollPercent = (window.scrollY / windowHeight) * 100;
         console.log('Current scroll percentage:', scrollPercent.toFixed(2) + '%');
-    if (!baseimg3 || !baseimg4 || !baseimg5 || !baseimg6 || !baseimg7) {
-    console.warn('Missing one or more baseimg elements');
-    }
-    if (!progressWrapper || !errorbar || !med2Bar || !errorpopup || !errornotif) {
-    console.warn('Missing one or more UI control elements');
-    }
         const baseimg3 = document.querySelector('#baseimg3');
         const baseimg4 = document.querySelector('#baseimg4');
         const baseimg5 = document.querySelector('#baseimg5');
@@ -213,6 +207,13 @@ window.Webflow.push(function() {
         const j3 = document.querySelector('#j3');
         const j4 = document.querySelector('#j4');
 
+            if (!baseimg3 || !baseimg4 || !baseimg5 || !baseimg6 || !baseimg7) {
+    console.warn('Missing one or more baseimg elements');
+    }
+    if (!progressWrapper || !errorbar || !med2Bar || !errorpopup || !errornotif) {
+    console.warn('Missing one or more UI control elements');
+    }
+        
         // Get current breakpoint percentages
         const bp = currentPercentages;
 
