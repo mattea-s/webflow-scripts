@@ -1,6 +1,6 @@
 # Webflow Custom Scripts
 
-JavaScript files for my Webflow website [your-site-name].
+JavaScript files for 3dque.com Webflow.
 
 ## Files
 
