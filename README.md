@@ -6,7 +6,6 @@ JavaScript files for 3dque.com Webflow.
 
 - `mockup.js` - Interactive Mockup for AF3D Page
 - `faq-wrapper.js` - FAQ Interaction for Home and AF3D
-- [List any other .js files you add]
 
 ## Usage
 
