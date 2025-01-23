@@ -445,7 +445,7 @@ window.Webflow.push(function() {
 }
 
         // Fail Notification
-        if (scrollPercent >= bp.failNotif && scrollPercent < bp.hideJobBreakdown) {
+        if (scrollPercent >= bp.failNotif && scrollPercent < bp.queueProgress) {
             errornotif?.classList.remove('hide');
             setTimeout(() => {
                 errornotif?.classList.add('alert');
