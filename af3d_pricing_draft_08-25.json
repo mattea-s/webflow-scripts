@@ -1,0 +1,170 @@
+{
+  "version": "2025-08-25",
+  "bases": {},
+  "addons": {
+    "Auto Ejection Software": 219.0,
+    "AMS Mapping (Lite - per farm)": 399.0,
+    "Hub": 169.0,
+    "LinuxBox 50": 500.0,
+    "LinuxBox 100": 750.0,
+    "VM Install": 250.0,
+    "Tilt": 50.0,
+    "VAAPR": 129.0,
+    "Door Opener": 369.0,
+    "Tilt + Software": 269.0,
+    "VAAPR + Software": 299.0,
+    "Auto Ejection + VAAPR + Software": 329.0,
+    "Auto Ejection + Door + Software": 399.0,
+    "Auto Ejection + VAAPR + Door + Software": 497.0
+  },
+  "combos": {
+    "per_printer": [
+      {
+        "items": [
+          "Auto Ejection",
+          "VAAPR"
+        ],
+        "combo_unit": 329.0
+      },
+      {
+        "items": [
+          "Auto Ejection",
+          "Door Opener"
+        ],
+        "combo_unit": 399.0
+      },
+      {
+        "items": [
+          "Auto Ejection",
+          "VAAPR",
+          "Door Opener"
+        ],
+        "combo_unit": 497.0
+      }
+    ]
+  },
+  "bundles": [
+    {
+      "plan": "Lite 10 + Auto",
+      "actual": 3839.0,
+      "list": 3250.0,
+      "with_door_opener": 4540.0
+    },
+    {
+      "plan": "Lite 50 + Auto",
+      "actual": 18700.0,
+      "list": 15000.0,
+      "with_door_opener": 21450.0
+    },
+    {
+      "plan": "Lite 100 + Auto",
+      "actual": 36650.0,
+      "list": 27500.0,
+      "with_door_opener": 40400.0
+    },
+    {
+      "plan": "Pro 10 + Auto",
+      "actual": 6790.0,
+      "list": 5500.0,
+      "with_door_opener": 6790.0
+    },
+    {
+      "plan": "Pro 50 + Auto",
+      "actual": 31450.0,
+      "list": 25000.0,
+      "with_door_opener": 31450.0
+    },
+    {
+      "plan": "Pro 100 + Auto",
+      "actual": 57900.0,
+      "list": 42000.0,
+      "with_door_opener": 54900.0
+    }
+  ],
+  "raw_base_rows": [
+    {
+      "name": "Lite Pilot (up to 4 printers)",
+      "actual": 549.0,
+      "list": 299.0,
+      "promo": 249.0
+    },
+    {
+      "name": "Lite 10",
+      "actual": 549.0,
+      "list": 499.0,
+      "promo": 449.0
+    },
+    {
+      "name": "Lite 50",
+      "actual": 2250.0,
+      "list": 1999.0,
+      "promo": 1749.0
+    },
+    {
+      "name": "Lite 100",
+      "actual": 3750.0,
+      "list": 3499.0,
+      "promo": 3249.0
+    },
+    {
+      "name": "Pro Pilot (up to 4 printers)",
+      "actual": 3500.0,
+      "list": 1229.0,
+      "promo": 1229.0
+    },
+    {
+      "name": "Pro 10",
+      "actual": 3500.0,
+      "list": 2750.0,
+      "promo": 2700.0
+    },
+    {
+      "name": "Pro 50",
+      "actual": 15000.0,
+      "list": 12500.0,
+      "promo": 12250.0
+    },
+    {
+      "name": "Pro 100",
+      "actual": 25000.0,
+      "list": 17500.0,
+      "promo": 17250.0
+    },
+    {
+      "name": "Lite 1 Month Pilot",
+      "actual": 182.0,
+      "list": 179.0,
+      "promo": 13.0
+    },
+    {
+      "name": "Lite 2 Month Pilot",
+      "actual": 195.0,
+      "list": 189.0,
+      "promo": 26.0
+    },
+    {
+      "name": "Lite 3 Month Pilot",
+      "actual": 208.0,
+      "list": 199.0,
+      "promo": 39.0
+    },
+    {
+      "name": "Pro 1 Month Pilot",
+      "actual": 298.0,
+      "list": 279.0,
+      "promo": 129.0
+    },
+    {
+      "name": "Pro 2 Month Pilot",
+      "actual": 427.0,
+      "list": 397.0,
+      "promo": 258.0
+    },
+    {
+      "name": "Pro 3 Month Pilot",
+      "actual": 556.0,
+      "list": 499.0,
+      "promo": 387.0
+    }
+  ]
+}
